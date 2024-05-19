@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<category label="Language Selection">
+			<setting id="ta" type="bool" label="Tamil" default="true" />
+			<setting id="ml" type="bool" label="Malayalam" default="true" />
+			<setting id="te" type="bool" label="Telugu" default="true" />
+			<setting id="kn" type="bool" label="Kannada" default="true" />
+			<setting id="hi" type="bool" label="Hindi" default="true" />
+			<setting id="en" type="bool" label="English" default="true" />
+			<setting id="mr" type="bool" label="Marathi" default="true" />
+			<setting id="bn" type="bool" label="Bengali" default="true" />
+			<setting id="gu" type="bool" label="Gujarathi" default="true" />
+			<setting id="pa" type="bool" label="Punjabi" default="true" />
+			<setting id="hr" type="bool" label="Bhojpuri" default="true" />
+			<setting id="or" type="bool" label="Oriya" default="true" />
+			<setting id="as" type="bool" label="Assamese" default="true" />
+	</category>
+	<category label="Login">
+		<setting id="email" type="text" label="E-Mail" default=""/>
+		<setting id="password" type="text" label="Password" default=""/>
+	</category>	
+	<category label="Auth">
+		<setting id="hdntl" type="text" label="hdntl" default=""/>
+	</category>
+	<category label="General">
+		<setting id="play_select" type="labelenum" label="Playback List" values="Default|Select" default="Default" />
+		<setting id="DeviceID" type="text" label="Device ID (Manual Entry)" default=""/>
+		<setting id="debug" type="bool" label="Enable Debug Logs?" default="false" />
+	</category>
+
+</settings>
